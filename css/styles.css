@@ -1,3 +1,62 @@
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;*/
-body{}
+:root {
+
+}
+
+body { 
+    font-family: ;
+    font-family: ;
+    color: ;
+    background-color: ;
+}
+.link {}
+
+/*header*/
+.header-main {}
+.header-logo {}
+.logo-span
+.header-list {}
+.inline {}
+ 
+/*Effective Solutions for Your Business*/
+.hero-section {}
+.hero-title {}
+.btn {}
+
+/*Features*/
+.features-section {}
+.features-title {}
+.features-descr {}
+
+/*What are we doing*/
+.task-section {}
+.section-title {}
+.section-img {}
+
+/*Our team*/
+.team-section {}
+.section-title {}
+.team {}
+.portrait-img {}
+.member-name {}
+.job-name {}
+
+/*footer 1 p section*/
+.footer-section {}
+.logo-span {}
+.footer-descr {}
+
+/*Buttons table*/
+.button-section {}
+.main-btn {}
+.nav-btn {}
+
+/*Portfolio*/
+.portfolio-section {}
+.portfolio
+.portfolio-img
+.portfolio-descr
+.portfolio-name
+
+
