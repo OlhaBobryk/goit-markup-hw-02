@@ -1,12 +1,27 @@
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;*/
 :root {
-
-}
+--leading-color: #2E2F42 ;
+--text-description-color: #434455 ;
+--logo-web-color: #4D5AE5 ;
+--logo-sudio-color: #2E2F42 ;
+--slogan-text-clr: #FFFFFF ;
+--nav-link-clr-normal: #2E2F42 ;
+--nav-link-clr-active: #404BBF ;
+--dark-bcground-clr: #2E2F42 ;
+--light-bcground-clr: #F4F4FD ;
+--background-color: #E5E5E5;
+--btn-order-clr-normal: #4D5AE5 ;
+--btn-order-clr-active: #404BBF ;
+--light-text-clr: #E5E5E5;
+--nav-btn-clr: #F4F4FD ;
+--navover-btn-clr: #E7E9FC ;
+--main-btn-clr: #404BBF ;
+} 
 
 body { 
-    font-family: ;
-    font-family: ;
+    font-family: "Raleway", sans-serif ;
+    font-family: "Roboto", sans-serif ;
     color: ;
     background-color: ;
 }
