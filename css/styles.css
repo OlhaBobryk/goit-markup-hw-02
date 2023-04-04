@@ -1,77 +1,314 @@
 /*font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;*/
 :root {
---leading-color: #2E2F42 ;
---text-description-color: #434455 ;
---logo-web-color: #4D5AE5 ;
---logo-sudio-color: #2E2F42 ;
---slogan-text-clr: #FFFFFF ;
---nav-link-clr-normal: #2E2F42 ;
---nav-link-clr-active: #404BBF ;
---dark-bcground-clr: #2E2F42 ;
---light-bcground-clr: #F4F4FD ;
+--leading-color: #2E2F42; /*NAVY BLUE*/
+--text-description-color: #434455; /*Slate*/
+--logo-web-color: #4D5AE5; /*iris*/
+--logo-sudio-color: #2E2F42; /*NAVY BLUE*/
+--slogan-text-clr: #FFFFFF;
+--nav-link-clr-normal: #2E2F42; /*NAVY BLUE*/
+--nav-link-clr-active: #404BBF; /*Ocean*/
+--dark-bcground-clr: #2E2F42; /*NAVY BLUE*/
+--light-cground-clr: #F4F4FD;
 --background-color: #E5E5E5;
---btn-order-clr-normal: #4D5AE5 ;
---btn-order-clr-active: #404BBF ;
+--btn-order-clr-normal: #4D5AE5; /*iris*/
+--btn-order-clr-active: #404BBF; /*Ocean*/
 --light-text-clr: #E5E5E5;
---nav-btn-clr: #F4F4FD ;
---navover-btn-clr: #E7E9FC ;
---main-btn-clr: #404BBF ;
+--nav-btn-clr: #F4F4FD;
+--navhover-btn-clr: #E7E9FC;
+--main-btn-clr: #404BBF; /*Ocean*/
 } 
 
 body { 
-    font-family: "Raleway", sans-serif ;
-    font-family: "Roboto", sans-serif ;
-    color: ;
-    background-color: ;
+    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: var(--text-description-color);
+    background-color: var(--background-color);
 }
-.link {}
+.link { 
+    text-decoration: none;
+}
 
 /*header*/
-.header-main {}
-.header-logo {}
-.logo-span
-.header-list {}
-.inline {}
- 
-/*Effective Solutions for Your Business*/
-.hero-section {}
-.hero-title {}
-.btn {}
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 21px;
+    display: flex;
+    align-items:center;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    color: var:(--logo-web-color);
+}
+.logo-span {
+    color: var(--logo-sudio-color);
+}
+.header-list {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2%;
+    text-transform: none;
+    color: var(--leading-color);
+}
+.header .header-list .link:active { 
+    text-decoration: underline, var(--nav-link-clr-active);
+}
+.inline {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2%;
+    text-transform: none;
+    color: var(--text-description-color);
+}
+.header .inline .link:hover {
+    color: var(--nav-link-clr-act);
+}
+.header .inline .link:focus {
+    color: var(--nav-link-clr-act);  
+}
+ /*hoover focus*/
 
+/*Effective Solutions for Your Business*/
+.hero-section {
+    background-color: var(--dark-bcground-clr)
+}
+/*перенос?*/
+.hero-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2%;
+    text-transform: none;
+    color: var(--slogan-text-clr);
+}
+.btn {
+    background-color: var(--btn-order-clr-normal);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4%;
+    text-transform: none;
+    color: var(--slogan-text-clr);
+}
+.hero-section .btn:hover {
+    background-color: var(--btn-order-clr-active);
+}
+.hero-section .btn:active {
+    background-color: var(--btn-order-clr-active);
+}
+.hero-section .btn:focus {
+    background-color: var(--btn-order-clr-active);
+}
 /*Features*/
-.features-section {}
-.features-title {}
-.features-descr {}
+.features-section {
+    background-color: var(--background-color);
+}
+.features-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    align-items: normal;
+    letter-spacing: 2%;
+    text-transform: none;
+    color: var(--leading-color);
+}
+.features-descr {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    align-items: normal;
+    letter-spacing: 2%;
+    text-transform: none;
+    color: var(--text-description-color);
+}
 
 /*What are we doing*/
-.task-section {}
-.section-title {}
+.task-section {
+    background-color: var(--background-color);
+}
+.section-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    font-style:normal;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2%;
+    text-transform: none;
+    color: var(--leading-color);
+}
 .section-img {}
 
 /*Our team*/
-.team-section {}
-.section-title {}
+.team-section {
+    background-color: var(--light-cground-clr);
+}
+.section-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2%;
+    text-transform: none;
+    color: var(--leading-color);
+
+}
 .team {}
 .portrait-img {}
-.member-name {}
-.job-name {}
+.member-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2%;
+    text-transform: none;
+    color: var(--leading-color);
+}
+.job-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2%;
+    text-transform: none;
+    color: var(--text-description-color);
+}
 
 /*footer 1 p section*/
-.footer-section {}
-.logo-span {}
-.footer-descr {}
+.footer-section {
+    background-color: var(--dark-bcground-clr);
+}
+.footer-span {
+    color: var(--light-cground-clr);
+}
+.footer-descr {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2%;
+    text-transform: none;
+    color: var(--light-cground-clr);
+}
 
 /*Buttons table*/
-.button-section {}
-.main-btn {}
-.nav-btn {}
+.button-section {
+    background-color: ;
+}
+.main-btn {
+    background-color: var(--btn-order-clr-normal);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4%;
+    text-transform: none;
+    color: var(--slogan-text-clr);
+}
+.button-section .main-btn:hover {
+     background-color: var(--btn-order-clr-active)
+    }
+.button-section .main-btn:focus {
+    background-color: var(--btn-order-clr-active)
+    }    
+.button-section .main-btn:active {
+    background-color: var(--btn-order-clr-active)
+    }    
+
+.nav-btn {
+    background-color: var(--nav-btn-clr);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4%;
+    text-transform: none;
+    color: var(--logo-web-color);
+}
+.button-section .nav-btn:hover {
+    background-color: var(--navhover-btn-clr);
+}
+.button-section .nav-btn:focus {
+    background-color: var(--navhover-btn-clr);
+}
+.button-section .nav-btn:active {
+    background-color: var(--navhover-btn-clr);
+}
 
 /*Portfolio*/
-.portfolio-section {}
-.portfolio
-.portfolio-img
-.portfolio-descr
-.portfolio-name
+.portfolio-section {
+    background-color: var(--background-color) ;
+}
+.portfolio {}
+.portfolio-img {}
+.portfolio-descr {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    align-items: normal;
+    letter-spacing: 2%;
+    text-transform: none;
+    color: var(--leading-color);
+}
+.portfolio-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    display: flex;
+    align-items: normal;
+    letter-spacing: 2%;
+    text-transform: none;
+    color: var(--text-description-color);
+}
 
 
