@@ -246,7 +246,7 @@ body {
     background-color: ;
 }
 .main-btn {
-    background-color: var(--btn-order-clr-normal);
+    background-color: var(--nav-btn-clr);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -256,16 +256,19 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     text-transform: none;
-    color: var(--slogan-text-clr);
+    color: var(--btn-order-clr-normal);
+    cursor: pointer;
 }
 .button-section .main-btn:hover {
-     background-color: var(--btn-order-clr-active)
+    color: #FFFFFF;
+    background-color: #404BBF;
     }
 .button-section .main-btn:focus {
-    background-color: var(--btn-order-clr-active)
+    color: #FFFFFF;
+    background-color: #404BBF;
     }    
 .button-section .main-btn:active {
-    background-color: var(--btn-order-clr-active)
+    background-color: #404BBF;
     }    
 
 .nav-btn {
