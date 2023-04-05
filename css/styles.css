@@ -76,10 +76,10 @@ body {
     color: var(--text-description-color);
 }
 .header .inline .link:hover {
-    color: var(--nav-link-clr-act);
+    color: var(--nav-link-clr-active);
 }
 .header .inline .link:focus {
-    color: var(--nav-link-clr-act);  
+    color: var(--nav-link-clr-active);  
 }
  /*hoover focus*/
 
