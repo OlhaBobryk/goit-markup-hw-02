@@ -259,15 +259,15 @@ body {
     color: var(--btn-order-clr-normal);
     cursor: pointer;
 }
-.button-section .main-btn:hover {
+.main-btn:hover {
     color: #FFFFFF;
     background-color: #404BBF;
     }
-.button-section .main-btn:focus {
+.main-btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
     }    
-.button-section .main-btn:active {
+.main-btn:active {
     background-color: #404BBF;
     }    
 
@@ -283,14 +283,15 @@ body {
     letter-spacing: 0.04em;
     text-transform: none;
     color: var(--logo-web-color);
+    cursor: pointer;
 }
-.button-section .nav-btn:hover {
+.nav-btn:hover {
     background-color: var(--navhover-btn-clr);
 }
-.button-section .nav-btn:focus {
+.nav-btn:focus {
     background-color: var(--navhover-btn-clr);
 }
-.button-section .nav-btn:active {
+.nav-btn:active {
     background-color: var(--navhover-btn-clr);
 }
 
