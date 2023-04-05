@@ -188,11 +188,13 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
-    text-transform: none;
+    text-transform: capitalize;
     color: var(--leading-color);
 
 }
-.team {}
+.team {
+    background-color: #FFFFFF;
+}
 .portrait-img {}
 .member-name {
     font-family: "Roboto", sans-serif;
