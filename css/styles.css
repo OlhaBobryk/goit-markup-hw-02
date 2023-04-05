@@ -63,6 +63,9 @@ body {
 .link:active { 
     text-decoration: underline, var(--nav-link-clr-active);
 }
+.address {
+    font-style: normal;
+}
 .inline {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
