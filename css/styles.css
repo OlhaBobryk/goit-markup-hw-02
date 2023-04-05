@@ -113,7 +113,7 @@ body {
     line-height: 1.5;
     display: flex;
     align-items: center;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     text-transform: none;
     color: var(--slogan-text-clr);
     cursor: pointer;
@@ -139,7 +139,7 @@ body {
     line-height: 1.2;
     display: flex;
     align-items: normal;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: none;
     color: var(--leading-color);
 }
@@ -151,7 +151,7 @@ body {
     line-height: 1.5;
     display: flex;
     align-items: normal;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: none;
     color: var(--text-description-color);
 }
@@ -165,10 +165,10 @@ body {
     font-size: 36px;
     font-weight: 700;
     font-style:normal;
-    line-height: 40px;
+    line-height: 1.1;
     display: flex;
     align-items: center;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-transform: none;
     color: var(--leading-color);
 }
@@ -186,7 +186,7 @@ body {
     line-height: 40px;
     display: flex;
     align-items: center;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-transform: none;
     color: var(--leading-color);
 
@@ -198,10 +198,10 @@ body {
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.2;
     display: flex;
     align-items: center;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-transform: none;
     color: var(--leading-color);
 }
@@ -210,10 +210,10 @@ body {
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-transform: none;
     color: var(--text-description-color);
 }
@@ -233,7 +233,7 @@ body {
     line-height: 24px;
     display: flex;
     align-items: center;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-transform: none;
     color: var(--light-cground-clr);
 }
@@ -248,10 +248,10 @@ body {
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     text-transform: none;
     color: var(--slogan-text-clr);
 }
@@ -271,10 +271,10 @@ body {
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     text-transform: none;
     color: var(--logo-web-color);
 }
@@ -299,10 +299,10 @@ body {
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.2;
     display: flex;
     align-items: normal;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-transform: none;
     color: var(--leading-color);
 }
@@ -311,10 +311,10 @@ body {
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.5;
     display: flex;
     align-items: normal;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-transform: none;
     color: var(--text-description-color);
 }
