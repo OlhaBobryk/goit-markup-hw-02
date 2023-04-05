@@ -60,7 +60,7 @@ body {
     text-transform: none;
     color: var(--leading-color);
 }
-.header .header-list .link:active { 
+.link:active { 
     text-decoration: underline, var(--nav-link-clr-active);
 }
 .inline {
@@ -75,10 +75,10 @@ body {
     text-transform: none;
     color: var(--text-description-color);
 }
-.header .inline .link:hover {
+.link:hover {
     color: #404BBF;
 }
-.header .inline .link:focus {
+.link:focus {
     color: #404BBF;  
 }
  /*hoover focus*/
@@ -96,7 +96,7 @@ body {
     line-height: 60px;
     display: flex;
     align-items: center;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-transform: none;
     color: var(--slogan-text-clr);
 }
