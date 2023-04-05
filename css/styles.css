@@ -168,8 +168,9 @@ body {
     line-height: 1.11;
     display: flex;
     align-items: center;
+    text-align: center;
     letter-spacing: 0.02em;
-    text-transform: none;
+    text-transform: capitalize;
     color: var(--leading-color);
 }
 .section-img {}
@@ -183,7 +184,7 @@ body {
     font-size: 36px;
     font-weight: 700;
     font-style: normal;
-    line-height: 40px;
+    line-height: 1.11;
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
@@ -223,7 +224,7 @@ body {
     background-color: var(--dark-bcground-clr);
 }
 .footer-span {
-    color: var(--light-cground-clr);
+    color: #F4F4FD;
 }
 .footer-descr {
     font-family: "Roboto", sans-serif;
