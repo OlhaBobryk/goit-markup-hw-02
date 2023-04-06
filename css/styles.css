@@ -4,11 +4,19 @@ font-family: 'Roboto', sans-serif;*/
 --leading-color: #2E2F42; /*NAVY BLUE*/
 --text-description-color: #434455; /*Slate*/
 --logo-web-color: #4D5AE5; /*iris*/
+--logo-sudio-color: #2E2F42; /*NAVY BLUE*/
 --slogan-text-clr: #FFFFFF;
+--nav-link-clr-normal: #2E2F42; /*NAVY BLUE*/
 --nav-link-clr-active: #404BBF; /*Ocean*/
+--dark-bcground-clr: #2E2F42; /*NAVY BLUE*/
 --light-cground-clr: #F4F4FD;
+--background-color: #E5E5E5;
+--btn-order-clr-normal: #4D5AE5; /*iris*/
+--btn-order-clr-active: #404BBF; /*Ocean*/
 --light-text-clr: #E5E5E5;
+--nav-btn-clr: #F4F4FD;
 --navhover-btn-clr: #E7E9FC;
+--main-btn-clr: #404BBF; /*Ocean*/
 } 
 
 body { 
@@ -35,7 +43,7 @@ body {
     color: var(--logo-web-color);
 }
 .logo-span {
-    color: var(--leading-color);
+    color: var(--logo-sudio-color);
 }
 .header-list {
     font-size: 16px;
@@ -59,7 +67,7 @@ body {
     text-transform: none;
     color: var(--text-description-color);
 }
-.link:hover, :focus {
+.inline .link:hover, :focus, :active {
     color: #404BBF;
 }
 
@@ -67,7 +75,7 @@ body {
 
 /*Effective Solutions for Your Business*/
 .hero-section {
-    background-color: var(--leading-color);
+    background-color: var(--dark-bcground-clr);
 }
 /*перенос?*/
 .hero-title {
@@ -80,7 +88,7 @@ body {
     text-align: center;
 }
 .btn {
-    background-color: var(--logo-web-color);
+    background-color: var(--btn-order-clr-normal);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -91,7 +99,7 @@ body {
     cursor: pointer;
 }
 .hero-section .btn:hover, :focus, :active {
-    background-color: var(--nav-link-clr-active);
+    background-color: var(--btn-order-clr-active);
 }
 
 /*Features*/
@@ -173,7 +181,7 @@ body {
 
 /*footer 1 p section*/
 .footer-section {
-    background-color: var(--leading-color);
+    background-color: var(--dark-bcground-clr);
 }
 .footer-span {
     color: #f4f4fd;
@@ -191,14 +199,14 @@ body {
 .button-section {
 }
 .main-btn {
-    background-color: var(--light-cground-clr);
+    background-color: var(--nav-btn-clr);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-transform: none;
-    color: var(--logo-web-color);
+    color: var(--btn-order-clr-normal);
     cursor: pointer;
 }
 .main-btn:hover, :focus, :active {
@@ -222,6 +230,7 @@ body {
     color: var(--leading-color);
 }
 .portfolio-name {
+
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
