@@ -212,10 +212,14 @@ body {
     color: var(--btn-order-clr-normal);
     cursor: pointer;
 }
-.main-btn:hover, :focus, :active {
+.main-btn:hover, :active {
     color: #FFFFFF;
     background-color: #404BBF;
-    }
+}
+.main-btn:focus, :active {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
 
 
 /*Portfolio*/
