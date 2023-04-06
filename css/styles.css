@@ -54,7 +54,7 @@ body {
     color: var(--leading-color);
 }
 .link:active { 
-    text-decoration: underline, var(--nav-link-clr-active);
+    color: var(--nav-link-clr-active);
 }
 .address {
     font-style: normal;
@@ -67,11 +67,14 @@ body {
     text-transform: none;
     color: var(--text-description-color);
 }
-.inline .link:hover, :focus, :active {
+.link:hover {
     color: #404BBF;
 }
 
- /*hoover focus*/
+.link:focus {
+    color: #404BBF;
+}
+ /*hoover color: #404bbf focus*/
 
 /*Effective Solutions for Your Business*/
 .hero-section {
